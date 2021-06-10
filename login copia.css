@@ -1,0 +1,53 @@
+@media screen and (min-width: 480px){
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(imagenes/loginwall.jpg);
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}  
+button {   
+       background-color: orange;   
+       width: 100%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {
+    border: 3px solid #f1f1f1;
+    width: 40%;
+}   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid orange;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: white;  
+    }
+    h1{
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
